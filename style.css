@@ -1,0 +1,67 @@
+div.element {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+div.empty {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    border: 1px transparent;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+  div#column{
+    width: 55px;
+    height:200px;
+    float:left;
+  }
+
+  div#alkali{
+    background-color: lightseagreen;
+  }
+
+  div#alkali-earth {
+    background-color:lightcoral
+  }
+
+  div#transition {
+    background-color: plum;
+  }
+
+  div#post-transition {
+    background-color: lightgreen;
+  }
+
+  div#metalloid {
+    background-color: goldenrod;
+  }
+
+  div#nonmetal{
+    background-color: lightskyblue;
+  }
+
+  div#noble {
+    background-color: palevioletred;
+  }
+
+  div#lathanide {
+    background-color: cornflowerblue;
+  }
+
+  div#actinide {
+    background-color: salmon;
+  }
+
+  div#unknown {
+    background-color:lightgray;
+  }
+
+  div#wrap{
+    min-width: 600px;
+    }
