@@ -1,24 +1,21 @@
 div.element {
-    width: 20px;
-    height: 20px;
+    width: 60px;
+    height: 60px;
     border: 1px solid black;
-    padding: 15px;
-    margin: 2px;
+    padding: 0px;
+    margin: 1px;
     border-radius: 5px;
 }
 
 div.empty {
-    width: 20px;
-    height: 20px;
-    padding: 15px;
-    border: 1px transparent;
-    margin: 2px;
+    width: 62px;
+    height: 62px;
+    padding: 0px;
+    margin: 1px;
     border-radius: 5px;
 }
 
   div#column{
-    width: 55px;
-    height:200px;
     float:left;
   }
 
@@ -62,6 +59,8 @@ div.empty {
     background-color:lightgray;
   }
 
-  div#wrap{
-    min-width: 600px;
+  div#wrapper{
+    background-color: blanchedalmond;
+    min-width: 1200px;
+    min-height: 700px;
     }
