@@ -1,15 +1,22 @@
+div#wrapper{
+    min-width: 1250px;
+    min-height: 700px;
+    top: 50%;
+    left: 50%;
+    padding: 4%
+    }
+
 div.element {
     width: 60px;
     height: 60px;
-    border: 1px solid black;
-    padding: 0px;
+    border: 3px solid black;
     margin: 1px;
     border-radius: 5px;
 }
 
 div.empty {
-    width: 62px;
-    height: 62px;
+    width: 66px;
+    height: 66px;
     padding: 0px;
     margin: 1px;
     border-radius: 5px;
@@ -17,6 +24,24 @@ div.empty {
 
   div#column{
     float:left;
+  }
+
+  div.info{
+    text-align: center;
+  }
+  div#number{
+    text-align:left;
+    padding-left:2px;
+    font-size:13px;
+  }
+  div#symbol{
+    font-size: 17px;
+  }
+  div#name{
+    font-size: 10px;
+  }
+  div#mass{
+    font-size: 9px;
   }
 
   div#alkali{
@@ -59,8 +84,4 @@ div.empty {
     background-color:lightgray;
   }
 
-  div#wrapper{
-    background-color: blanchedalmond;
-    min-width: 1200px;
-    min-height: 700px;
-    }
+  
